@@ -30,6 +30,7 @@
                     ? rules[item.id]
                     : rules[item.id].concat(passwordConfirmationRule)
                 "
+                validate-on-blur
                 required
                 outlined
                 dense
@@ -65,7 +66,7 @@
             </v-row>
 
             <v-btn
-              class="light-green accent-4 white--text"
+              class="light-green accent-4 white--text font-weight-bold"
               :disabled="!isFormValid"
               type="submit"
               block
