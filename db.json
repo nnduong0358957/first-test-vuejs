@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Nguyễn Nam Dương",
+      "email": "nnduong@gmail.com",
+      "phone": "0358957632",
+      "password": "0989492034"
+    },
+    {
+      "id": "2",
+      "name": "Nguyễn Nam Duy",
+      "phone": "0989492034",
+      "password": "nnduong1242"
+    }
+  ]
+}
